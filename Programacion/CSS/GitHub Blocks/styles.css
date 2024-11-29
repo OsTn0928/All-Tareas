@@ -1,0 +1,37 @@
+body {
+    background-color: #f0f0f0; /* Color de fondo suave para mejor contraste */
+    font-family: Arial, sans-serif; /* Fuente general */
+}
+
+.container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px; /* Espacio interno */
+    text-align: center; /* Centrar el contenido */
+    background-color: #fff; /* Fondo blanco para el contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.row {
+    display: flex; /* Usar Flexbox para el layout */
+    justify-content: center; /* Centrar los bloques horizontalmente */
+    flex-wrap: nowrap; /* Evitar que los bloques se ajusten a la siguiente línea */
+    margin: 10px 0; /* Margen vertical entre filas */
+}
+
+.block {
+    margin: 5px; /* Espacio entre bloques */
+    flex: 1; /* Permitir que los bloques crezcan igualmente */
+    max-width: 150px; /* Ancho máximo de los bloques */
+}
+
+.block img {
+    max-width: 100%; /* Hacer que las imágenes no se desborden */
+    height: auto; /* Mantener la proporción de las imágenes */
+    border-radius: 4px; /* Bordes redondeados en las imágenes */
+}
+
+h1 {
+    color: #333; /* Color del título */
+}
